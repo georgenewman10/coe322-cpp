@@ -1,0 +1,97 @@
+Disease Propagation Model 
+
+Constant, user defined parameters: 
+Population = 50
+Transfer probability = .25
+Infection length = 4 days
+Interactions per day = 5
+
+Legend: 
+(+) Infected
+(-) Inoculated
+(?) Susceptible
+
+Vaccination: 0%
+Disease ran its course by day 44. Total affected: 34. Unaffected: 16
+
+
+Vaccination: 5%
+Disease ran its course by day 43. Total affected: 30. Unaffected: 20
+
+
+Vaccination: 10%
+Disease ran its course by day 11. Total affected: 7. Unaffected: 43
+
+
+Vaccination: 15%
+Disease ran its course by day 19. Total affected: 13. Unaffected: 37
+
+
+Vaccination: 20%
+Disease ran its course by day 20. Total affected: 18. Unaffected: 32
+
+
+Vaccination: 25%
+Disease ran its course by day 17. Total affected: 10. Unaffected: 40
+
+
+Vaccination: 30%
+Disease ran its course by day 11. Total affected: 7. Unaffected: 43
+
+
+Vaccination: 35%
+Disease ran its course by day 11. Total affected: 11. Unaffected: 39
+
+
+Vaccination: 40%
+Disease ran its course by day 13. Total affected: 11. Unaffected: 39
+
+
+Vaccination: 45%
+Disease ran its course by day 27. Total affected: 14. Unaffected: 36
+
+
+Vaccination: 50%
+Disease ran its course by day 6. Total affected: 2. Unaffected: 48
+
+
+Vaccination: 55%
+Disease ran its course by day 25. Total affected: 13. Unaffected: 37
+
+
+Vaccination: 60%
+Disease ran its course by day 19. Total affected: 11. Unaffected: 39
+
+
+Vaccination: 65%
+Disease ran its course by day 6. Total affected: 2. Unaffected: 48
+
+
+Vaccination: 70%
+Disease ran its course by day 5. Total affected: 1. Unaffected: 49
+
+
+Vaccination: 75%
+Disease ran its course by day 8. Total affected: 2. Unaffected: 48
+
+
+Vaccination: 80%
+Disease ran its course by day 6. Total affected: 2. Unaffected: 48
+
+
+Vaccination: 85%
+Disease ran its course by day 6. Total affected: 2. Unaffected: 48
+
+
+Vaccination: 90%
+Disease ran its course by day 8. Total affected: 3. Unaffected: 47
+
+
+Vaccination: 95%
+Disease ran its course by day 5. Total affected: 1. Unaffected: 49
+
+
+Vaccination: 100%
+Disease ran its course by day 1. Total affected: 0. Unaffected: 50
+
+

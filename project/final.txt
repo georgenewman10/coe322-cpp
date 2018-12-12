@@ -67,14 +67,14 @@ class Population {
             }
             psize = a;
             r1 = rand() % 100;
-            r2 = rand() % psize + 1;                            
+            r2 = rand() % psize + 1;                            // delete the  +1
             step = 1;
         }
         
         int  getstep() { return step; }
         void nextstep() { step++; }
 
-        void set_probability_of_transfer(int a) { p = a; }      // user accessible setter functions
+        void set_probability_of_transfer(int a) { p = a; }      // user accessible setter function
         void set_sickdays(int a) { sickdays = a; }
         void set_interactions(int a) { interactions = a; }
 
@@ -191,9 +191,11 @@ void generateDiseaseInfo(int n, int p, int infectionLength, int interactionsPerD
         }
         f << "Disease ran its course by day " << pop.getstep()-1 << ". Total affected: " << 
         pop.count_affected() << ". Unaffected: " << n-pop.count_affected() << endl << endl << endl;
+        
     }
     f.close();
 }
+
 
 
 int main() {
@@ -202,9 +204,6 @@ int main() {
     bool flag,vis;
     char visual;
 
-
-    cout << endl << endl << "Welcome to your disease propagation model! Let's start with some parameters. "
-    << endl;
     cout << "Enter the population size (0-50): ";
     cin >> n;
     cout << "Enter the probability (%) of disease transfer (1-100): ";
@@ -213,14 +212,14 @@ int main() {
     cin >> days;
     cout << "Enter the number of interactions each person has per day: ";
     cin >> interactions;
-    cout << "Would you like to see a visual representation of the disease path? (y/n): ";
+    cout << "Would you like to see a visual representation of the disease? (y/n): ";
     cin >> visual;
     if (visual=='y') { vis=true; }
     if (visual=='n') { vis=false; }
 
 
     generateDiseaseInfo(n,p,days,interactions,vis);
-    cout << "Your disease simulation has been run!" << endl;
+    cout << "Your disease simulation has been run" << endl;
 
     return 0;
 }
