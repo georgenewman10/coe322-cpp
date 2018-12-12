@@ -150,7 +150,7 @@ class Population {
         }
 };
 
-void generateVaxFile() {
+void generateVaccinatedFile() {
     bool flag;
     int percent, affected;
     int n = 50;
@@ -180,15 +180,13 @@ void generateVaxFile() {
             pop3.interact();
         }
         f << "Disease ran its course by day " << pop3.getstep()-1 << ". Total affected: " << 
-        pop3.count_affected() << endl << endl << endl;
+        pop3.count_affected() << ". Unaffected: " << n-pop3.count_affected() << endl << endl << endl;
         
-        f2 << pop3.count_affected() << " ";
+        f2 << pop3.count_affected() << " "; 
     }
     f2 << endl;
     f.close();
     f2.close();
-
-
 }
 
 
@@ -198,19 +196,7 @@ int main() {
     int n,p,percent,dead,alive;
     bool flag;
 
-    generateVaxFile();
-
-    
-
-
-
-
-
-
-
-
-
-
+    generateVaccinatedFile();
 
 
 /*   
