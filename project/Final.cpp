@@ -88,7 +88,7 @@ class Population {
             int count = 0;
             for(int i=0; i<psize; i++) {
                 if (popvec[i].is_stable()) { continue; }
-                while (count < 6){
+                while (count < 11){
                     r1 = rand() % 100;                      
                     r2 = rand() % psize;                        // random person
                     if (r1<p) { popvec[r2].infect(5); }         // infect this person if bad luck
