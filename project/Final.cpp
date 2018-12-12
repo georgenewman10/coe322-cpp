@@ -78,7 +78,7 @@ class Population {
         void random_infection(){ 
             for(int i=0; i<psize; i++){
                 if (not popvec[i].is_inoculated()) { 
-                    popvec[i].infect(5); 
+                    popvec[i].infect(10); 
                     break;
                 }
             }
@@ -91,7 +91,7 @@ class Population {
                 while (count < 11){
                     r1 = rand() % 100;                      
                     r2 = rand() % psize;                        // random person
-                    if (r1<p) { popvec[r2].infect(5); }         // infect this person if bad luck
+                    if (r1<p) { popvec[r2].infect(10); }         // infect this person if bad luck
                     count++;                                    // add one interaction regardless of outcome
                 }
             }
