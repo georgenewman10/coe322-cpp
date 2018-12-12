@@ -65,15 +65,3 @@ int main() {
     joe.status_string();
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
