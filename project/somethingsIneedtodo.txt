@@ -1,5 +1,0 @@
-change data file to same folder as source
-
-go through line by line and look for waste
-
-writeup
